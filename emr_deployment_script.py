@@ -694,11 +694,11 @@ def main():
             sys.exit(1)
 
         # Step 6: Upload staging data files (lookup CSVs and parquet data)
-        # logger.info("Uploading data files to staging directory...")
-        # if not upload_staging_files():
-        #     logger.warning("Failed to upload some staging files. Continuing anyway, but ETL may fail.")
-        # else:
-        #     logger.info("Successfully uploaded staging data files.")
+        logger.info("Uploading data files to staging directory...")
+        if not upload_staging_files():
+            logger.warning("Failed to upload some staging files. Continuing anyway, but ETL may fail.")
+        else:
+            logger.info("Successfully uploaded staging data files.")
 
         # Step 7: Ensure S3 directories exist
         ensure_s3_directories()
