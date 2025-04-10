@@ -3,6 +3,13 @@
 ## Overview
 A scalable data engineering solution that processes US immigration data using AWS EMR and Apache Spark. The system transforms raw data into a star schema optimized for analytics while enforcing robust data quality controls.
 
+Please refer to docs folder to find out more on
+1. [analytical queries](docs/Analytical_Quries.md)
+2. [data rejection approach](docs/data_rejection_approach.md)
+3. [Immigration ETL Data Quality Procedures](docs/ETL_Data_Quality_Procedures.md)
+4. [Implementation Details and Technical Choices](docs/Implementation_Technical_Choices.md)
+5. [Product Improvement Recommendations Based on Data Quality Analysis](docs/Product_Improvement.md)
+
 ## Business Value
 - **Enhanced Decision Making**: Enables data-driven immigration policy analysis
 - **Data Quality Assurance**: Identifies and isolates non-compliant records (12% of data) to inform investment in 
