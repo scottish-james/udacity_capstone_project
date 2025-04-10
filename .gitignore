@@ -1,0 +1,36 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+*.env
+
+# PyCharm project files
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs & outputs
+*.log
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Test & coverage
+.coverage
+htmlcov/
+.tox/
+
+# Local data
+*.sqlite3
+*.db
+
+# Ignore backup folder
+backup/
